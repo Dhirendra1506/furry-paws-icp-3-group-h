@@ -96,7 +96,7 @@ section .contact-container
 {
     position: relative;
     min-width: 1100px;
-    min-height: 550px;
+    min-height: 600px;
     display: flex;
     z-index: 1000;
 }
@@ -187,7 +187,7 @@ section .contact-container .contactForm
 {
     position: absolute;
    
-    padding: 70px 50px;
+    padding: 20px 50px;
     background: white;
     margin-left: 150px;
     padding-left: 250px;
@@ -204,7 +204,7 @@ section .contact-container .contactForm h2
 section .contact-container .contactForm .formBox
 {
     position: relative;
-    display: flex;
+   
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 30px;
