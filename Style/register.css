@@ -6,81 +6,13 @@
     font-family: Inter,sans-serif;
 }
 
-  body {
-      background-color: #1fd1f9;
-      background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
-    }
-    
-    .header{
-      height: 80px;
-      width: 100%;
-      position: fixed;
-      top: 0;
-      background-color: white;
-    }
-    
-    a{
-      text-decoration: none;
-      color: black;
-    }
-    .paytm_logo{
-      height: 60px;
-      width: 200px;
-      margin-left: 65px;
-      margin-top: 8px;
-      float: left;
-    }
-    
-    .menu{
-      list-style-type: none;
-      text-align: center;
-      float: left;
-      margin-top: 30px;
-      width: 900px;
-    }
-    
-    .menu li{
-      display: inline;
-      padding-left: 50px;
-      font-weight: bold;
-    }
-    
-    .btn_signin{
-      height: 35px;
-      width: 110px;
-      margin-left: 80px;
-      margin-top: 22px;
-      border-radius: 20px;
-      background-color: #1fd1f9;
-      background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
-        transition: all 0.3s ease;
-      color: white;
-      font-weight: bold;
-      float: left;
-      text-align: center;
-      cursor: pointer;
-    }
-    
-    .btn_signin span{
-      cursor: pointer;
-      float: left;
-      margin-left: 10px;
-      margin-top: 10px;
-    }
-    
-    .btn_signin img{
-      height: 28px;
-      margin-top: 2px;
-      margin-left: 5px;
-    }
     
 .registrationfrom{
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1fd1f9;
-    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    
       transition: all 0.3s ease;
 }
 
@@ -92,7 +24,8 @@
     padding: 30px;
     margin: 0 15px;
     background-color: #fff;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 7px 10px rgba(0,0,0,0.1);
+    border-radius: 3%;
 }
 .container header{
     position: relative;
