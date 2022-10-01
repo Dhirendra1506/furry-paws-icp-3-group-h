@@ -9,10 +9,10 @@ body{
     box-sizing: border-box;
 }
 .team-section{
-    background-color: #1fd1f9;
-    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    
     min-height: 100vh;
     padding: 70px 15px 30px;
+    margin: 40px;
 }
 .about-container{
     max-width: 1170px;
@@ -33,14 +33,14 @@ margin-bottom: 70px;
     font-size: 40px;
     text-align: center;
     margin: 0;
-    color: aliceblue;
+    color: black
     font-weight: 700;
 }
 .team-section .section-title p{
     font-size: 16px;
     text-align: center;
     margin: 15px 0 0;
-    color: aliceblue;
+    color: black
 } 
 
 .team-section .team-items{
@@ -63,6 +63,7 @@ margin-bottom: 70px;
     display: block;
     width: 100%;
     border-radius:10px ;
+    box-shadow: black 4px 4px 4px;
 }
 
 .team-section .team-items .item .inner{
