@@ -27,43 +27,258 @@
         </div>
       </section>
       
-  <div class="product-card">
-    <div class="logo-cart">
-      <i class='bx bx-shopping-bag'></i>
-    </div>
-    <div class="main-images">
-      
-    </div>
-    <div class="shoe-details">
-      <span class="shoe_name">Air Dried Beef </span>
-      <p>Lorem ipsum dolor sit lorenm i amet, consectetur adipisicing elit. Eum, ea, ducimus!</p>
-      <div class="stars">
-        <i class='bx bxs-star' ></i>
-        <i class='bx bxs-star' ></i>
-        <i class='bx bxs-star' ></i>
-        <i class='bx bxs-star' ></i>
-        <i class='bx bx-star' ></i>
-      </div>
-    </div>
-    <div class="color-price">
-      <div class="color-option">
-        <span class="color">Colour:</span>
-        <div class="circles">
-          <span class="circle blue active"  id="blue"></span>
-          <span class="circle pink " id="pink"></span>
-          <span class="circle yellow " id="yellow"></span>
+      <style>
+        body{
+            margin: 0%;
+            padding: 0%;
+        }
+      .products{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-image: linear-gradient(to right top, #edf7fc, #e7f5fc, #e0f3fb, #daf2fa, #d3f0f9);
+      }
+      .dic{
+        padding: 20px;
+        display: flex;
+      }
+      .cards{
+        border-radius: 10px;
+        border-color: black;
+        border: 3px;
+        background-color: aliceblue;
+        padding: 5px;
+        box-shadow: 0px 0px 3px #808080;
+        width: fit-content;
+        margin: 35px;
+        
+      }
+      .cards:hover{
+         cursor: pointer;
+         box-shadow: inset 10px;
+         box-shadow: 0px 0px 7px #808080;
+         transition: 0.35s;
+      }
+      .img{
+        margin: 5px;
+      }
+      img{
+        border-radius: 5px;
+        box-shadow: 0px 0px 2px #808080;
+      }
+      .name{
+        margin-left: 10px;
+      }
+      .stars{
+            font-weight: 30px;
+          
+            margin-left: 10px;
+            display: flex;
+            
+        }
+        a{
+            margin-left: 5px;
+        }
+        .checked{
+  color: orange;
+}
+.price{
+    font-size: large;
+    color: blue;
+}
+.addtocart{
+    margin-left: 10px;
+}
+button{
+    margin-left:20px;
+    background-color: rgb(50, 177, 179);
+    color: aliceblue;
+    border-radius: 10px;
+    height:30px;
+    cursor: pointer;
+    border-color: #808080;
+}
+button:hover{
+    box-shadow: 0px 0px 5px #808080;
+    background-image: linear-gradient(to right top, #edf7fc, #e7f5fc, #e0f3fb, #daf2fa, #d3f0f9);
+    color: rgb(50, 177, 179); ;
+    transition: 0.35s;
+}
+.design{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+}
+.png{
+    right: 0%;
+}
+.sal{
+    width:100%;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+    </style>
+    <body>
+        
+        <div class="products">
+            <div class="sale">
+                <img class="sal" src="Cat_Food.webp" >
+            </div> 
+            <div class="dic">
+                <div class="cards">
+                    <div class="img"><img src="applawas.webp" width="250px" ></div>
+                    <div class="name">
+                        <a>Applawas Tuna fillet cat food</a>
+                    </div>
+                    <div class="stars">
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <a> 50k| reviews</a>
+                    </div>
+                    <div class="addtocart">
+                        <a class="price">₹499</a>
+                        <button type="button">Add to cart.<i class='fa fa-paw'></i></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img"><img src="arden.webp" width="250px" ></div>
+                    <div class="name">
+                        <a>Applawas Tuna fillet cat food</a>
+                    </div>
+                    <div class="stars">
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <a> 50k| reviews</a>
+                    </div>
+                    <div class="addtocart">
+                        <a class="price">₹499</a>
+                        <button type="button">Add to cart.<i class='fa fa-paw'></i></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img"><img src="blueberry.webp" width="250px" ></div>
+                    <div class="name">
+                        <a>Applawas Tuna fillet cat food</a>
+                    </div>
+                    <div class="stars">
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <a> 50k| reviews</a>
+                    </div>
+                    <div class="addtocart">
+                        <a class="price">₹499</a>
+                        <button type="button">Add to cart.<i class='fa fa-paw'></i></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img"><img src="taste.webp" width="250px" ></div>
+                    <div class="name">
+                        <a>Applawas Tuna fillet cat food</a>
+                    </div>
+                    <div class="stars">
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <a> 50k| reviews</a>
+                    </div>
+                    <div class="addtocart">
+                        <a class="price">₹499</a>
+                        <button type="button">Add to cart.<i class='fa fa-paw'></i></button>
+                    </div>
+                </div>
         </div>
-      </div>
-      <div class="price">
-        <span class="price_num">$09.00</span>
-        <span class="price_letter">Nine dollar only</span>
-      </div>
-    </div>
-    <div class="button">
-      <div class="button-layer"></div>
-      <button>Add To Cart</button>
-    </div>
-  </div>
+        <div class="products">
+            <div class="dic">
+                <div class="cards">
+                    <div class="img"><img src="tuna.webp" width="250px" ></div>
+                    <div class="name">
+                        <a>Applawas Tuna fillet cat food</a>
+                    </div>
+                    <div class="stars">
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <a> 50k| reviews</a>
+                    </div>
+                    <div class="addtocart">
+                        <a class="price">₹499</a>
+                        <button type="button">Add to cart.<i class='fa fa-paw'></i></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img"><img src="taste.webp" width="250px" ></div>
+                    <div class="name">
+                        <a>Applawas Tuna fillet cat food</a>
+                    </div>
+                    <div class="stars">
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <a> 50k| reviews</a>
+                    </div>
+                    <div class="addtocart">
+                        <a class="price">₹499</a>
+                        <button type="button">Add to cart.<i class='fa fa-paw'></i></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img"><img src="whiskas.webp" width="250px" ></div>
+                    <div class="name">
+                        <a>Applawas Tuna fillet cat food</a>
+                    </div>
+                    <div class="stars">
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <a> 50k| reviews</a>
+                    </div>
+                    <div class="addtocart">
+                        <a class="price">₹499</a>
+                        <button type="button">Add to cart.<i class='fa fa-paw'></i></button>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="img"><img src="taste.webp" width="250px" ></div>
+                    <div class="name">
+                        <a>Applawas Tuna fillet cat food</a>
+                    </div>
+                    <div class="stars">
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x checked"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <span class="fa fa-star fa-1x"></span>
+                        <a> 50k| reviews</a>
+                    </div>
+                    <div class="addtocart">
+                        <a class="price">₹499</a>
+                        <button type="button">Add to cart.<i class='fa fa-paw'></i></button>
+                    </div>
+                </div>
+            
+        </div>
+        <div class="sale">
+            <img class="sal" src="catfood2.webp" >
+        </div> 
+        
   
 </body>
 </html>
