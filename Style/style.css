@@ -379,6 +379,7 @@ body {
 .section-title .span {
   display: inline;
   color: var(--portland-orange);
+  
 }
 
 .img-holder {
@@ -448,7 +449,16 @@ body {
   margin-block-start: 15px;
   text-align: center;
   transition: var(--transition-1);
+  
+  
 }
+h1{
+  font-weight: 2000;
+  text-align: center;
+  margin-right: 30%;
+  padding-bottom: 25px;
+}
+
 
 .category-card .card-title:is(:hover, :focus) { color: var(--portland-orange); }
 
@@ -826,12 +836,21 @@ body {
    * FOOTER
    */
 
-  .footer-bottom .container {
+  .footer-bottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 1000;
   }
 
+}
+.github-footer{
+  position: relative;
+  
+  justify-content: center;
+}
+ .github-footer a{
+  color: #fff;
 }
 
 
@@ -967,3 +986,5 @@ body {
   .footer { padding-block-start: 40px; }
 
 }
+
+
