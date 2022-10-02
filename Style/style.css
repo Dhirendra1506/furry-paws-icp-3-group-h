@@ -488,7 +488,7 @@ h1{
   margin-block: 5px 24px;
 }
 
-.offer-card .btn { background-color: var(--portland-orange); }
+.offer-card .btn { background-color: orange; }
 
 .offer-card .btn:is(:hover, :focus) { background-color: var(--black); }
 
@@ -846,11 +846,16 @@ h1{
 }
 .github-footer{
   position: relative;
+  display: flex;
   
-  justify-content: center;
+  justify-content: space-between;
 }
  .github-footer a{
+  display: flex;
   color: #fff;
+}
+.github-footer img{
+  height: 30px;
 }
 
 
